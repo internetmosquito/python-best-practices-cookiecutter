@@ -37,8 +37,9 @@ cd <repo_name>
 # Initialise git repo
 git init
 
-# Create virtualenv with pipenv, choose whatever Python version you want
-pipenv --python 3.7
+# Create virtualenv with pipenv, choose whatever Python version as long as it matches the one in Pipfile, OR you can skip this altogether if your default version 
+# is the same as the one in Pipfile 
+pipenv --python 3.7 
 
 # Install dependencies
 pipenv install --dev
