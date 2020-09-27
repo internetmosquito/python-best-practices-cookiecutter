@@ -1,5 +1,7 @@
 # Python Best Practices Cookiecutter
 
+This cookiecutter template provides a default template for a standard Python project, just Python, nothing else. Anything else required would need to be installed after creating project from this cookiecutter.
+
 Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).
 
 ## Features
