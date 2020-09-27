@@ -29,7 +29,7 @@ pipx install pipenv
 pipx install pre-commit
 
 # Use cookiecutter to create project from this template
-pipx run cookiecutter gh:internetmosquito/python-template-cookiecutter
+pipx run cookiecutter gh:internetmosquito/python-project-template-cookiecutter
 
 # Enter project directory
 cd <repo_name>
