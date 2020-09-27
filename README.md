@@ -4,6 +4,10 @@ This cookiecutter template provides a default template for a standard Python pro
 
 Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).
 
+This uses pre-commit command too, check it [here](https://pre-commit.com/). 
+
+Also, there are a couple of Github workflow actions, one to Publish the Docker image (based on [this](https://github.com/whoan/docker-build-with-cache-action)) to the registry and also another one that runs test on Docker image too. More info on Github actions [here](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/finding-and-customizing-actions)
+
 ## Features
 - Testing with [pytest](https://docs.pytest.org/en/latest/)
 - Formatting with [black](https://github.com/psf/black)
@@ -20,8 +24,9 @@ Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template 
 python3 -m pip install pipx
 python3 -m pipx ensurepath
 
-# Install pipenv using pipx
+# Install pipenv and pre-commit using pipx
 pipx install pipenv
+pipx install pre-commit
 
 # Use cookiecutter to create project from this template
 pipx run cookiecutter gh:internetmosquito/python-template-cookiecutter
