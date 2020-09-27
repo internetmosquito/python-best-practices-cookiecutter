@@ -1,4 +1,4 @@
-# Python Best Practices Cookiecutter
+# Python Template Cookiecutter
 
 This cookiecutter template provides a default template for a standard Python project, just Python, nothing else. Anything else required would need to be installed after creating project from this cookiecutter.
 
